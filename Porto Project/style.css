@@ -1,0 +1,32 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #7952b3;
+}
+
+/* Contact */
+#contact {
+  background-color: white;
+}
+
+/* Section */
+section {
+  padding-top: 6rem;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
